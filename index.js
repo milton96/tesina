@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 //Parseamos el tipo del contenido de los request - application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended:true }))
+app.use(bodyParser.urlencoded({ extended: true }))
 
 //Parseamos el tipo del contenido de los request - application/json
 app.use(bodyParser.json())
