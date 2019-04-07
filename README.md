@@ -12,7 +12,7 @@ Las dependecias utilizadas son:
     - mongoose
     - body-parser
 
-Para instalar las dependencias se usa el comando
+Para instalar las dependencias se usa el comando:
 ```sh
 npm install "dependecia"
 ```
