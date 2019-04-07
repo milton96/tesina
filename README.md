@@ -16,3 +16,13 @@ Para instalar las dependencias se usa el comando:
 ```sh
 npm install "dependecia"
 ```
+
+Para iniciar el proyecto se debe estar en el directorio ./tesina y ejecutar:
+```sh
+node index.js
+```
+
+O, en caso de usar GNU/Linux se debe usar:
+```sh
+nodejs index.js
+```
