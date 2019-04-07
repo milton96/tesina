@@ -11,5 +11,5 @@ module.exports = (app) => {
 
     //Ruta para la turbidez
     app.post('/turb', sensores.createTurb);
-    app.post('/turb', sensores.findLastTurb);
+    app.get('/turb', sensores.findLastTurb);
 }
